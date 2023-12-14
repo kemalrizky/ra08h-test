@@ -115,3 +115,13 @@ void RTC_IRQHandler(void)
 {
     RtcOnIrq();
 }
+
+/**
+ * @brief  This function handles LPUART Handler.
+ * @param  None
+ * @retval None
+ */
+// void LPUART_IRQHandler(void)
+// {
+//     lpuart_IRQHandler();
+// }
