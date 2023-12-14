@@ -9,8 +9,7 @@
 #include "tremo_pwr.h"
 #include "tremo_delay.h"
 #include "rtc-board.h"
-
-extern int app_start(void);
+#include "classC.hpp"
 
 void uart_log_init(void)
 {

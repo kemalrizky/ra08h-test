@@ -444,7 +444,7 @@ uint8_t BoardGetBatteryLevel( void )
 /**
  * Main application entry point.
  */
-int app_start( void )
+int app_start_hidden_coy( void )
 {
     LoRaMacPrimitives_t LoRaMacPrimitives;
     LoRaMacCallback_t LoRaMacCallbacks;
